@@ -42,3 +42,7 @@ main {
     background: transparent;
     border: 1px solid var(--green);
 }
+
+button.btn-ingresso a {
+    background-color: transparent;
+}

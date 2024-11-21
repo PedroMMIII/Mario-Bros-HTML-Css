@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 601px) {
-
+    /* Header */
     #background {
         width: 100%;
         height: 100%;
@@ -26,15 +26,37 @@
 
     .navigation_link {
         font-size: 15px;
-        letter-spacing: 1px;
+        letter-spacing: 1.4px;
     }
 
     .navigation_social {
-        margin-left: auto;
+        position: absolute;
+        right: 1%;
+        top: 20%;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        column-gap: 24px;
+        gap: 15px;
+        z-index: 1;
     }
-    
-    
+    /* End Header */
+
+    /* Main */
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .main_info div a, .main_info div button {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-mario-luigi {
+        display: none;
+    }
 }
